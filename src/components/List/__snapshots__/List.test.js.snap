@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly 1`] = `
+Array [
+  <div
+    className="list"
+  >
+    <ul
+      className="list__list"
+    >
+      <span
+        className="list__loading"
+      >
+        Loading...
+      </span>
+    </ul>
+  </div>,
+]
+`;

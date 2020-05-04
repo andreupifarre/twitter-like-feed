@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed should render correctly 1`] = `
+Array [
+  <div
+    className="feed"
+  >
+    <h2
+      className="feed__title"
+    >
+      Twitter-like feed
+    </h2>
+    <List
+      tweets={
+        Array [
+          Object {
+            "image": "https://s3.amazonaws.com/uifaces/faces/twitter/pixage/128.jpg",
+            "text": "10001. \\"It is straight enough. I should like to know who sold you the
+geese which you supplied to the Alpha.\\"",
+            "username": "Ferne.Dickinson1",
+          },
+          Object {
+            "image": "https://s3.amazonaws.com/uifaces/faces/twitter/kazaky999/128.jpg",
+            "text": "10000. Godfrey
+Norton, as our client is to its coming to the eyes of his
+princess.",
+            "username": "Jena_Heller",
+          },
+        ]
+      }
+    />
+  </div>,
+]
+`;

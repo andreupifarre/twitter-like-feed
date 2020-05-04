@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet should render correctly 1`] = `
+Array [
+  <li
+    className="item"
+  >
+    <div
+      className="item__image"
+    >
+      <img
+        alt=""
+        className="item__img"
+        src=""
+      />
+    </div>
+    <div
+      className="item__body"
+    >
+      <span
+        className="item__username"
+      >
+        
+      </span>
+      <span
+        className="item__text"
+      >
+        
+      </span>
+    </div>
+  </li>,
+]
+`;
