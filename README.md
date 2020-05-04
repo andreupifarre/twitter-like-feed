@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Notes on testing in Codesandbox
+
+On my test suite I have used jest.mock, however Codesandbox seems to have a bug since 2018 that prevents the use of it:
+https://github.com/codesandbox/codesandbox-client/issues/513
+All the test passed on my localhost, however Codesandbox seems to be dealing with test erratically. Tests fail from time to time due to bugs on Codesandbox. I recommend cloning the project from github and trying the tests in localhost: https://github.com/andreupifarre/twitter-like-feed
+
+Also Codesandbox wouldn't read my setupTests.js so I had to import that file manually on each test file :(
+
 ## Available Scripts
 
 In the project directory, you can run:
